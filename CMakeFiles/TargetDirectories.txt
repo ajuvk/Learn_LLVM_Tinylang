@@ -1,0 +1,7 @@
+/home/areej/Documents/Compilers/llvmBook/Modula_tinylang/CMakeFiles/intrinsics_gen.dir
+/home/areej/Documents/Compilers/llvmBook/Modula_tinylang/CMakeFiles/vt_gen.dir
+/home/areej/Documents/Compilers/llvmBook/Modula_tinylang/CMakeFiles/omp_gen.dir
+/home/areej/Documents/Compilers/llvmBook/Modula_tinylang/CMakeFiles/acc_gen.dir
+/home/areej/Documents/Compilers/llvmBook/Modula_tinylang/CMakeFiles/target_parser_gen.dir
+/home/areej/Documents/Compilers/llvmBook/Modula_tinylang/CMakeFiles/edit_cache.dir
+/home/areej/Documents/Compilers/llvmBook/Modula_tinylang/CMakeFiles/rebuild_cache.dir
