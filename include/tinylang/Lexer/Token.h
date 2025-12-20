@@ -26,7 +26,7 @@ namespace tinylang{
         bool isNot(tok::TokenKind K) const {return Kind != K;}
 
         template<typename ...Tokens>
-        bool isOneOf(Tokens && ...Toks){
+        bool isOneOf(Tokens && ...Toks) const{
             return (... || is(Toks));
         }
 

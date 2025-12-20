@@ -295,7 +295,7 @@ namespace tinylang{
         ConstantAccess(ConstantDeclaration *Const)
         : Expr(EK_Const, Const->getExpr()->getType(), true),Const(Const) {}
 
-        ConstantDeclaration *geDecl() { return Const; }
+        ConstantDeclaration *getDecl() { return Const; }
 
         static bool classof(const Expr *E) {
             return E->getKind() == EK_Const;
@@ -339,14 +339,14 @@ namespace tinylang{
     };
 
     class AssignmentStatement : public Stmt {
-        VariableDeclaration *Var;
+        Decl *Var;
         Expr *E;
 
     public:
-        AssignmentStatement(VariableDeclaration *Var, Expr *E)
+        AssignmentStatement(Decl *Var, Expr *E)
         : Stmt(SK_Assign), Var(Var), E(E) {}
 
-        VariableDeclaration *getVar() { return Var; }
+        Decl *getVar() { return Var; }
         Expr *getExpr() { return E; }
 
         static bool classof(const Stmt *S) {
